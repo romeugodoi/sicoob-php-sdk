@@ -560,7 +560,6 @@ final class CobrancaBancariaTest extends TestCase
         }
     }
 
-
     public function testCanBeToSolicitMovimentationBeneficiaryWallet()
     {
         try {
