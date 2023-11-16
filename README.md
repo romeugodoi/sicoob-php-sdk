@@ -13,16 +13,6 @@ Biblioteca para facilitar a integração com a API do banco Sicoob utilizando PH
 
 [Documentação](https://github.com/romeugodoi/sicoob-php-sdk/tree/main/docs)
 
-
-## Instalação
-
-Instale my-project com npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-
 ## Rodando os testes
 
 Para rodar os testes, rode o seguinte comando
