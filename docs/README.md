@@ -11,7 +11,7 @@ Documentação para uso da biblioteca.
 - [Incluir Boleto](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/incluir-boleto.md)
 - [Consultar Boleto](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/consultar-boleto.md)
 - [Listar Boletos por Pagador](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/boletos-por-pagador.md)
-- [Emitir Segunda via de um boleto](https://www.github.com/octokatherine)
+- [Emitir Segunda via de um boleto](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/segunda-via-boleto.md)
 - [Prorrogar a data de vencimento de boletos](https://www.github.com/octokatherine)
 - [Prorrogar a data limite para pagamento de boletos](https://www.github.com/octokatherine)
 - [Alterar informações de valor de desconto e/ou data de desconto e/ou tipo de desconto de boletos](https://www.github.com/octokatherine)
