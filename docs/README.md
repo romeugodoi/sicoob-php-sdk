@@ -1,7 +1,7 @@
 
 # Documentação Sicoob PHP SDK
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+Documentação para uso da biblioteca.
 
 
 ## Documentação Cobrança Bancária
