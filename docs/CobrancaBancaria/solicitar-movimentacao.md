@@ -1,7 +1,25 @@
 # Solicitar a movimentação da carteira de cobrança registrada para beneficiário informado
 
-```php
+Parâmetros:
+- tipoMovimentacao - Um dos valores do Enum TipoMovimentacao
+- dataInicial
+- dataFinal
 
+```php
+    $response = $this->cobrancaBancaria->solicitarMovimentacaoCarteiraBeneficiario(
+        TipoMovimentacao::BAIXA,
+        "2018-09-20T00:00:00-03:00",
+        "2018-09-20T00:00:00-03:00",
+    );
+```
+
+Retorno:
+
+```json
+    {
+        "mensagem": "Solicitação recebida com sucesso. Utilize o 'Código da Solicitação' para verificar se já foi processada.",
+        "codigoSolicitacao": 132
+    }
 ```
 
 ## Referência

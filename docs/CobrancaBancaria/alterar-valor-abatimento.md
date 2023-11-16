@@ -1,7 +1,19 @@
 # Alterar o valor de abatimento de boletos
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/AlterarValorAbatimento
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new AlterarValorAbatimento(
+            2588658,
+            10.0,
+        ),
+    ];
+
+    $response = $this->cobrancaBancaria->alterarValorAbatimentoBoletos($data);
 ```
 
 ## Referência

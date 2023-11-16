@@ -1,7 +1,18 @@
 # Cancelar o Apontamento da Negativação de Pagadores
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/CancelarApontamentoNegativacao
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new CancelarApontamentoNegativacao(
+            2588658
+        )
+    ];
+
+    $response = $this->cobrancaBancaria->cancelarApontamentoNegativacaoPagadores($data);
 ```
 
 ## Referência

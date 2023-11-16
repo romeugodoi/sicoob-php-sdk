@@ -1,7 +1,18 @@
 # Alterar boleto para utilização de PIX
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/AlterarParaUtilizarPIX
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new AlterarParaUtilizarPIX(
+            2588658
+        )
+    ];
+
+    $response = $this->cobrancaBancaria->alterarBoletoParaUtilizarPix($data);
 ```
 
 ## Referência

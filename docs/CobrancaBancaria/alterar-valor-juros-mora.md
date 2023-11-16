@@ -1,7 +1,21 @@
 # Alterar valor de juros de mora de boletos
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/AlterarValorJurosMora
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new AlterarValorJurosMora(
+            2588658,
+            TipoJurosMora::VALOR_FIXO,
+            "2018-09-20T00:00:00-03:00",
+            5
+        ),
+    ];
+
+    $response = $this->cobrancaBancaria->alterarValorJurosMoraBoletos($data);
 ```
 
 ## Referência

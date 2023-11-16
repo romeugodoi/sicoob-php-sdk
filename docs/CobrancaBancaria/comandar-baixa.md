@@ -1,7 +1,19 @@
 # Comandar a baixa de boletos
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/ComandarBaixa
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new ComandarBaixa(
+            2588658,
+            '123456',
+        ),
+    ];
+
+    $response = $this->cobrancaBancaria->comandarBaixaBoletos($data);
 ```
 
 ## Referência

@@ -1,7 +1,21 @@
 # Alterar valor de multa de boletos
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/AlterarValorMulta
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new AlterarValorMulta(
+            2588658,
+            TipoMulta::VALOR_FIXO,
+            "2018-09-20T00:00:00-03:00",
+            5
+        ),
+    ];
+
+    $response = $this->cobrancaBancaria->alterarValorMultaBoletos($data);
 ```
 
 ## Referência

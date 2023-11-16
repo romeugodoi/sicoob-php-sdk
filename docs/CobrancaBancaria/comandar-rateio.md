@@ -1,7 +1,34 @@
 # Comandar rateio de crédito de boletos
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/ComandarRateioCredito
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new ComandarRateioCredito(
+            2588658,
+            [
+                new RateioCredito(
+                    1,
+                    5191,
+                    1,
+                    true,
+                    CodigoTipoValorRateio::PERCENTUAL,
+                    65.00,
+                    CodigoTipoCalculoRateio::VALOR_COBRADO,
+                    '12345678901',
+                    'Rharison Lucas Moreira Abreu',
+                    CodigoFinalidadeTED::CREDITO_EM_CONTA,
+                    CodigoTipoContaDestinoTED::CONTA_CORRENTE,
+                    1,
+                )
+            ],
+        )
+    ];
+
+    $response = $this->cobrancaBancaria->comandarRateioCreditoBoletos($data);
 ```
 
 ## Referência

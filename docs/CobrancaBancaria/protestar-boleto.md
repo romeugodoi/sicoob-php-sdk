@@ -1,7 +1,18 @@
 # Protestar Boletos
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/ProtestarBoleto
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new ProtestarBoleto(
+            2588658
+        )
+    ];
+    
+    $response = $this->cobrancaBancaria->protestarBoletos($data);
 ```
 
 ## Referência

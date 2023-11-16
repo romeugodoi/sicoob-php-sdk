@@ -1,7 +1,19 @@
 # Alterar o valor nominal de boletos de cartão de crédito
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/AlterarValorNominalBoletoCartaoCredito
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new AlterarValorNominalBoletoCartaoCredito(
+            2588658,
+            10.0,
+        ),
+    ];
+
+    $response = $this->cobrancaBancaria->alterarValorNominalBoletosCartaoCredito($data);
 ```
 
 ## Referência

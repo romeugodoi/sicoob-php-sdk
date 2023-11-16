@@ -1,7 +1,19 @@
 # Alterar seu número e/ou número de controle da empresa dos boletos
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/AlterarSeuNumeroIdBoletoEmpresa
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new AlterarSeuNumeroIdBoletoEmpresa(
+            2588658,
+            '123456',
+        )
+    ];
+
+    $response = $this->cobrancaBancaria->alterarSeuNumeroOuIdBoletoEmpresaBoletos($data);
 ```
 
 ## Referência

@@ -1,7 +1,18 @@
 # Desistir do Protesto de Boletos
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/DesistirProtesto
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new DesistirProtesto(
+            2588658
+        )
+    ];
+
+    $response = $this->cobrancaBancaria->desistitProtestoBoletos($data);
 ```
 
 ## Referência

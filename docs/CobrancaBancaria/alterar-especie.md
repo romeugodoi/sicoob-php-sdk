@@ -1,7 +1,19 @@
 # Alterar espécie de documento dos boletos
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/AlterarEspecieDocumento
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new AlterarEspecieDocumento(
+            2588658,
+            EspecieDocumento::FATURA,
+        ),
+    ];
+
+    $response = $this->cobrancaBancaria->alterarEspecieDocumentoBoletos($data);
 ```
 
 ## Referência

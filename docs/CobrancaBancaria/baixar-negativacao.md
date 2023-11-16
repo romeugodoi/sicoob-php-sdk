@@ -1,7 +1,18 @@
 # Baixar a Negativação de Pagadores
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/BaixarNegativacao
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new BaixarNegativacao(
+            2588658,
+        ),
+    ];
+
+    $response = $this->cobrancaBancaria->baixarNegativacaoPagadores($data);
 ```
 
 ## Referência

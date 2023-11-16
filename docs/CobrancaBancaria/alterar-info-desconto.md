@@ -1,8 +1,21 @@
 # Alterar informações de valor de desconto e/ou data de desconto e/ou tipo de desconto de boletos
 
-```php
+Parâmetros:
+- Array de objetos da classe Payload/AlterarInformacoesDesconto
 
+<b>Observação: </b>A quantidade máxima de boletos quer alterados por requisição é de 10, de acordo com a documentação oficial.
+
+```php
+    $data = [
+        new AlterarInformacoesDesconto(
+            2588658,
+            TipoDesconto::SEM_DESCONTO,
+        )
+    ];
+
+    $response = $this->cobrancaBancaria->alterarInformacoesDescontoBoletos($data);
 ```
+
 
 ## Referência
 
