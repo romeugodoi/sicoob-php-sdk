@@ -1,0 +1,24 @@
+{
+    "name": "logics/sicoob-sdk",
+    "description": "Library to facilitate integration with the Sicoob bank API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Logics\\SicoobSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Logics Softwares",
+            "email": "atendimento@logics.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
