@@ -9,7 +9,6 @@ Biblioteca para facilitar a integração com a API do banco Sicoob utilizando PH
 - Integração com a API de Cobrança Bancária
 
 
-
 ## Documentação
 
 [Documentação](https://github.com/romeugodoi/sicoob-php-sdk/tree/main/docs)
