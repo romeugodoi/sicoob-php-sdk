@@ -1,6 +1,6 @@
 {
-    "name": "logics/sicoob-sdk",
-    "description": "Library to facilitate integration with the Sicoob bank API",
+    "name": "logics/sicoob-php-sdk",
+    "description": "Library to facilitate integration with the Sicoob bank API with PHP",
     "type": "library",
     "license": "MIT",
     "autoload": {
