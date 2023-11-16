@@ -6,7 +6,7 @@ Documentação para uso da biblioteca.
 
 ## Documentação Cobrança Bancária
 
-- [Autenticação](https://www.github.com/octokatherine)
+- [Autenticação]([https://www.github.com/octokatherine](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/authenticator.md))
 - [Utilização do módulo de Cobrança Bancária](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/utilizar-modulo-conbranca-bancaria.md)
 - [Incluir Boleto](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/incluir-boleto.md)
 - [Consultar Boleto](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/consultar-boleto.md)
