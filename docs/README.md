@@ -10,7 +10,7 @@ Documentação para uso da biblioteca.
 - [Utilização do módulo de Cobrança Bancária](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/utilizar-modulo-conbranca-bancaria.md)
 - [Incluir Boleto](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/incluir-boleto.md)
 - [Consultar Boleto](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/consultar-boleto.md)
-- [Listar Boletos por Pagador](https://www.github.com/octokatherine)
+- [Listar Boletos por Pagador](https://github.com/romeugodoi/sicoob-php-sdk/blob/main/docs/CobrancaBancaria/boletos-por-pagador.md)
 - [Emitir Segunda via de um boleto](https://www.github.com/octokatherine)
 - [Prorrogar a data de vencimento de boletos](https://www.github.com/octokatherine)
 - [Prorrogar a data limite para pagamento de boletos](https://www.github.com/octokatherine)
