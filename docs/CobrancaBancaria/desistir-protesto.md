@@ -14,6 +14,15 @@ Parâmetros:
 
     $response = $this->cobrancaBancaria->desistitProtestoBoletos($data);
 ```
+#### Retorno:
+
+```json
+[
+    {
+        "nossoNumero": 209
+    }
+]
+```
 
 ## Referência
 

@@ -26,6 +26,25 @@ Parâmetros:
 
     $response = $this->cobrancaBancaria->alterarInformacoesPagadorBoletos($data);
 ```
+#### Retorno:
+
+```json
+[
+    {
+        "nossoNumero": 2588658,
+        "numeroCpfCnpj": "98765432185",
+        "nome": "Marcelo dos Santos",
+        "endereco": "Rua 87 Quadra 1 Lote 1 casa 1",
+        "bairro": "Santa Rosa",
+        "cidade": "Luziânia",
+        "cep": "72320000",
+        "uf": "DF",
+        "email": [
+            "pagador@dominio.com.br"
+        ]
+    }
+]
+```
 
 ## Referência
 
