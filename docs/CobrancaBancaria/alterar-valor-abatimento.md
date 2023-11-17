@@ -15,6 +15,16 @@ Parâmetros:
 
     $response = $this->cobrancaBancaria->alterarValorAbatimentoBoletos($data);
 ```
+#### Retorno:
+
+```json
+[
+    {
+        "nossoNumero": 123,
+        "valorAbatimento": 1
+    }
+]
+```
 
 ## Referência
 

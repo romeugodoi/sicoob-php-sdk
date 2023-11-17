@@ -15,6 +15,15 @@ Parâmetros:
     $response = $this->cobrancaBancaria->cancelarApontamentoProtestoBoletos($data);
 ```
 
+#### Retorno:
+
+```json
+[
+    {
+        "nossoNumero": 209
+    }
+]
+```
 
 ## Referência
 
