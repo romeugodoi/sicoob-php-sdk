@@ -16,6 +16,16 @@ Parâmetros:
     $response = $this->cobrancaBancaria->prorrogarDataLimitePagamentoBoletos($data);
 ```
 
+#### Retorno:
+
+```json
+[
+    {
+        "nossoNumero": 123,
+        "dataLimitePagamento": "2018-09-20T00:00:00-03:00"
+    }
+]
+```
 
 ## Referência
 

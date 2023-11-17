@@ -15,6 +15,16 @@ Parâmetros:
 
     $response = $this->cobrancaBancaria->comandarBaixaBoletos($data);
 ```
+#### Retorno:
+
+```json
+[
+    {
+        "seuNumero": "1235512",
+        "nossoNumero": 123
+    }
+]
+```
 
 ## Referência
 

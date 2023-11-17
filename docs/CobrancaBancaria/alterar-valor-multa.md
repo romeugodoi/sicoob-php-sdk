@@ -17,6 +17,17 @@ Parâmetros:
 
     $response = $this->cobrancaBancaria->alterarValorMultaBoletos($data);
 ```
+#### Retorno:
+```json
+[
+    {
+        "nossoNumero": 123,
+        "tipoMulta": 1,
+        "dataMulta": "2018-09-20T00:00:00-03:00",
+        "valorMulta": 5.01
+    }
+]
+```
 
 ## Referência
 

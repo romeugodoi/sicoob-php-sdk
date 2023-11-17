@@ -16,6 +16,22 @@ Parâmetros:
     $response = $this->cobrancaBancaria->alterarInformacoesDescontoBoletos($data);
 ```
 
+#### Retorno:
+
+```json
+[
+    {
+        "nossoNumero": 123,
+        "tipoDesconto": 1,
+        "dataPrimeiroDesconto": "2018-09-20T00:00:00-03:00",
+        "valorPrimeiroDesconto": 1,
+        "dataSegundoDesconto": "2018-09-20T00:00:00-03:00",
+        "valorSegundoDesconto": 0,
+        "dataTerceiroDesconto": "2018-09-20T00:00:00-03:00",
+        "valorTerceiroDesconto": 0
+    }
+]
+```
 
 ## Referência
 
